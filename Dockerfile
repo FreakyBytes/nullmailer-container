@@ -5,7 +5,7 @@ ENV NULLMAILER_DEFAULT_DOMAIN="localhost.lan" \
     NULLMAILER_PAUSETIME="30" \
     NULLMAILER_REMOTE=""
 
-ARG NM_VER=2.0
+ARG NM_VER=2.1
 ARG NM_URL=https://github.com/bruceg/nullmailer/archive/$NM_VER.tar.gz
 
 # download and install nullmail source
